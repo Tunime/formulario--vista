@@ -17,9 +17,12 @@ body{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	background: white;
+	padding: 4em 2em;
+	border-radius: 10px;
 	}
 .formulario form h3{
-	color: white;
+	color: #e74c3c;
 }
 .formulario--campo{
 	padding: 1em 1.5em;
@@ -28,6 +31,7 @@ body{
 	font-size: 15px;
 	border-radius: 8px;
 	border: none;
+	background: #ecf0f1
 }
 .formulario--btn{
 	padding: 1em 0;
@@ -35,6 +39,7 @@ body{
 	color: white;
 	border: none;
 	border-radius: 8px;
+	margin: 0.5em 0 0 0;
 }
 .formulario--btn:hover{
 	background: #49515a;
