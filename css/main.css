@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.formulario{
+	background: #e74c3c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.formulario form{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	}
+.formulario form h3{
+	color: white;
+}
+.formulario--campo{
+	padding: 1em 1.5em;
+	min-width: 19em;
+	margin: 0.3em 0 0.5em 0;
+	font-size: 15px;
+	border-radius: 8px;
+	border: none;
+}
+.formulario--btn{
+	padding: 1em 0;
+	background: #323941;
+	color: white;
+	border: none;
+	border-radius: 8px;
+}
+.formulario--btn:hover{
+	background: #49515a;
+}
